@@ -14,7 +14,7 @@ function customReadFile() {
 
 customReadFile()
   .then(result => console.log(result))
-// .catch(err => console.log(err));
+  .catch(err => console.log(err));
 
 // fs.readFile(__filename, 'utf-8', function (err, data) {
 //   if (err) {
